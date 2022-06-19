@@ -255,6 +255,7 @@ public class GGDaoImple implements GGDao {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
+//		System.out.println("★ 이미지 첨부 확인용 ★ : "+ list.get(0).getGgImgStoreName()); // 이미지 가져오는 것 확인용 2022 06 19 0310 , 프린트 찍는거에서 오류발생하는듯?
 		return list;
 	}
 

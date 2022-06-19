@@ -66,14 +66,14 @@ $(function(){
 						<tr>
 							<td class="th">내　용</td>
 							<td>
-							<textarea rows="20" cols="50" readonly="readonly" class="Mtd" style="resize: none;">${dto.ggCont}</textarea>
+								<textarea rows="20" cols="50" readonly="readonly" class="Mtd" style="resize: none;">${dto.ggCont}</textarea>
 								<c:if test="${!empty imgList}">
 									<div>
 										<c:forEach items="${imgList}" var="ggImgDto">
 											<img src="GGimg/${ggImgDto.ggImgStoreName}" style="width:100%; max-height: 30%;">
 										</c:forEach>
 									</div>
-							</c:if>
+								</c:if>
 							</td>
 						</tr>
 						<tr>

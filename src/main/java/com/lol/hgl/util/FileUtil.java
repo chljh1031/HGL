@@ -1,5 +1,6 @@
 package com.lol.hgl.util;
 
+import java.awt.*;
 import java.io.File;
 import java.util.List;
 
@@ -10,8 +11,7 @@ import com.lol.hgl.dto.ggImgDto;
 
 @Component("fileUtils")
 public class FileUtil {
-
-	private static final String filePath = "C:\\Users\\Hankyung_EDU\\git\\HGL\\HGL\\src\\main\\webapp\\GGimg\\";
+	private static final String filePath = "C:\\HGL\\src\\main\\webapp\\GGimg\\";
 	public ggImgDto parseInsertFileInfo(MultipartFile multipartFile) throws Exception {
 
 		ggImgDto dto = new ggImgDto();
